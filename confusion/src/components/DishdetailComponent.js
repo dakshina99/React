@@ -36,7 +36,7 @@ class CommentForm extends Component {
         return (
 
             <div className='row'>
-                <Button className='click' onClick={this.toggleModal}><span className='fa fa-pencil'></span> Submit Comment</Button>
+                <Button outline color='secondary' onClick={this.toggleModal}><span className='fa fa-pencil'></span> Submit Comment</Button>
 
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>
@@ -48,7 +48,7 @@ class CommentForm extends Component {
                                 <Label htmlFor="rating" md={12}>Rating</Label>
                                 <Col md={12}>
                                     <Control.select model=".rating" name="rating"
-                                        className="form-control">
+                                        className="form-control custom-select">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>

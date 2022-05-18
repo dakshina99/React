@@ -76,15 +76,3 @@ address{
 .card-subtitle{
   font-weight: bold;
 }
-
-.click {
-  color: black;
-  background-color: white;
-  border-color: black;
-}
-
-.click :hover {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
-}
